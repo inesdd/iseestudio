@@ -1,0 +1,805 @@
+
+@font-face {
+    font-family: acumin-pro-wide,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    src: url("https://use.typekit.net/hwb1xqw.css");
+}
+
+body {
+    font-family: acumin-pro-wide;
+    font-weight: 700;
+    background-size: 100%;
+}
+/* icono hamburguesa menu */
+.menu-icon {
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+    font-size: 1rem;
+}
+
+.navbar-toggler {
+    padding: 0%;
+    font-size: 1rem !important;
+}
+
+/* hello */
+.navbar-brand img {
+    margin-left: 2%;
+    font-size: 1rem;
+    width: 20%;
+}
+
+.navbar-brand {
+    width: 70%;
+}
+
+/* menu desplegable */
+.navbar-nav {
+    padding-right: 1em;
+    margin-right: 0;
+    padding-top: 1.5em;
+    justify-content: right;
+    text-align: right;
+}
+
+.dropdown-menu.show {
+    text-align: right;
+    background-color: transparent;
+    border-radius: 0;
+    font-family: acumin-pro;
+    font-weight: 400;
+}
+
+.dropdown-toggle::after {
+    border: 0;
+}
+
+/* icono flecha al lado de WORK */
+.drop-icon {
+    display: none;
+}
+
+.nav-link {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+/* idioma */
+.eng-language {
+    color: #c4c4c4 !important;
+    font-weight: 400;
+}
+
+.drop-language {
+    color: #c4c4c4 !important;
+    font-weight: 400;
+}
+
+/* línea debajo del navbar */
+hr {
+    height: 0.4px;
+    background-color: #f7b0aa;
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+
+/* titulo de la pag */
+.title-page {
+    -webkit-text-stroke: 1px #f7b0aa;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    padding-left: 1em;
+    padding-top: 10px;
+}
+
+/* empieza la info */
+.web-design {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10%;
+    
+}
+
+.first-paragraph {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.text {
+    margin: 0; 
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.block {
+    border-left: 2px solid #eeeeee;
+    margin-left: -20px;
+    padding-left: 20px;
+    margin-bottom: 0%;
+}
+
+.project-info {
+    width: 80%;
+    padding-top: 0;
+    margin-left: 8%;
+}
+
+.project-line {
+    height: 0.1px;
+    background-color: black;
+    width: 98%;
+    margin-top: 0;
+    margin-bottom: 0; 
+    margin-left: 0;
+}
+
+.project-info p {
+    margin-bottom: 0;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    margin-top: 1em;
+}
+
+.project-info h1 {
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.long-img {
+    width: 80%;
+    vertical-align: middle;
+    border-style: none;
+    margin-top: 12%;
+    box-shadow: -8px 9px 57px -14px grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mac-img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    padding-top: 2.5em;
+}
+
+.long-img img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none; 
+}
+
+.mac-img img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none; 
+}
+
+.image-mac {
+    width: 100%;
+    margin-left: 5%;
+    position: relative;
+
+}
+
+.image-mac img {
+    width: 105%;
+    box-sizing: border-box;
+}
+.first-image {
+    width: 50%;
+    margin: 3rem auto;
+    box-shadow: -8px 9px 57px -14px grey;
+}
+
+.img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.img img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    
+}
+
+.image-mac {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.image-mac img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.scroll {
+    position: absolute;
+    top: 16.4%;
+    left: 13.5%;
+    overflow: scroll;
+    width: 73.2%;
+    height: 32.9%;
+}
+
+.scroll img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.second-paragraph {
+    width: 100%;
+    margin-top: 7%; 
+}
+
+.contenedor {
+    flex-direction: column-reverse;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.text1 p {
+    margin-bottom: 0;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    margin-top: 1em;
+   
+}
+
+.text2 {
+    border-left: 1px solid black;
+    margin-left: auto;
+    margin-bottom: 3.5em;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 80%;
+}
+
+.text2 p {
+    font-size: .9rem;
+    font-weight: 400;
+    margin-bottom: 1em;
+    width: 95%;
+    margin-left: 1em;
+}
+
+
+
+/*los dos macs del final*/
+
+.second-mac {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.scroll2 {
+    position: absolute;
+    left: 13.2%;
+    overflow: scroll;
+    width: 31.2%;
+    height: 11%;
+    margin-bottom: 4.1%;
+}
+
+.scroll2 img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.third-mac {
+    width: 100%;
+}
+
+.scroll3 {
+    position: absolute;
+    left: 55.7%;
+    overflow: scroll;
+    width: 31.2%;
+    height: 11%;
+    margin-bottom: 4.1%;
+}
+
+.scroll3 img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+/* AQUÍ EMPIEZA EL FOOTER */
+/* footer */
+.info-footer p {
+    font-size: 5px;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 400;
+    color: #c4c4c4;
+}
+
+.info-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.logo-footer {
+    width: 8%;
+    height: 8%;
+    display: flex;
+    margin: auto;
+}
+
+#footer {
+    padding-top: 1em;
+} 
+
+/* RESPONSIVE */
+/* IPHONE X */
+@media screen and (min-device-width : 360px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: #f7b0aa;
+    }
+    .scroll2 {
+        height: 9%;
+    }  
+    .scroll3 {
+        height: 9%;
+    }
+
+    .scroll {
+        position: absolute;
+        top: 15.4%;
+        left: 13.5%;
+        overflow: scroll;
+        width: 73%;
+        height: 33.6%;
+    }
+    
+}
+
+/* IPAD */
+@media screen and (min-device-width : 700px) {
+    /* navbar */
+    .navbar-brand img {
+        margin-left: 10%;
+        font-size: 1rem;
+        width: 10%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #f7b0aa;
+    }
+
+    .navbar-brand {
+        width: 75%;
+    }
+/*
+    .drop-icon {
+        display: inline-block;
+        width: 3%;
+        height: 5%;
+        margin-left: .255em;
+        vertical-align: .255em;
+        content: "";
+    }
+*/
+    .title-page {
+        -webkit-text-stroke: 2px #f7b0aa;
+        -webkit-text-fill-color: transparent;
+        font-size: 59px;
+        padding-left: 1em;
+        padding-top: 30px;
+    }
+
+    .scroll {
+        position: absolute;
+        top: 11.3%;
+        left: 13.5%;
+        overflow: scroll;
+        width: 73%;
+        height: 34.9%;
+    }
+
+    .scroll2 {
+        height: 14.7%;
+    }  
+    .scroll3 {
+        height: 14.7%;
+    }    
+    
+    .text1 p {
+        margin-bottom: 0;
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 400;
+        font-size: .9rem;
+        margin-top: 1em;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #footer {
+        padding-bottom: 2em;
+    }
+
+    .logo-footer {
+        width: 6%;
+        height: 6%;
+    }
+
+    .info-footer p {
+        font-size: 8px;
+        margin-top: 15px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-device-width : 1000px) {
+    /* navbar */
+    .navbar-brand img {
+        margin-left: 10%;
+        font-size: 1rem;
+        width: 10%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #f7b0aa;
+    }
+
+    .navbar-brand {
+        width: 75%;
+    }
+
+    .drop-icon {
+        display: none;
+    }
+
+    /* idioma */
+    .eng-language {
+        color: #c4c4c4 !important;
+        font-weight: 400;
+    }
+
+    .drop-language {
+        color: #c4c4c4 !important;
+        font-weight: 400;
+        padding-right: 51% !important;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-right: 2em !important;
+    }
+
+    .title-page {
+        -webkit-text-stroke: 2px #f7b0aa;
+        -webkit-text-fill-color: transparent;
+        font-size: 59px;
+        padding-left: 1em;
+        padding-top: 30px;
+    }
+    
+    /* proyectos */
+    .project-info {
+        margin-left: -2rem;
+        width: 53.1%;
+        margin-bottom: 1.5em;
+        margin-top: 10em;
+    }
+    
+    .project-line {
+        height: 0.1px;
+        background-color: black;
+        width: 98%;
+        margin-top: 0;
+        margin-bottom: 0; 
+        margin-left: 0;
+    }
+
+    .project-info p {
+        margin-top: 20px;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1em;
+    }
+    
+    .project-info h1 {
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.2em;
+    }
+
+    /* info para tamaño web*/
+
+    .web-design {
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 5%;
+        
+    }
+    
+    .first-paragraph {
+        width: 50%;
+        margin: 0 auto;
+        margin-right: 15%;
+    }
+    
+    .text {
+        margin: 0; 
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.4;
+        text-align: left;
+    }
+    
+    .block {
+        padding-left: 2.2rem;
+        margin-left: -2rem;
+        width: 54.1%;
+        margin-bottom: 1.5em;
+    }
+    
+   
+    strong {
+        font-weight: bolder;
+    }
+
+    .complete-web {
+        width: 50%;
+        margin-left: 19%;
+    }
+    
+    .first-image {
+        width: 50%;
+        margin: 3rem auto;
+        box-shadow: -8px 9px 57px -14px grey;
+        
+    }
+    
+    .long-img {
+        width: 100%;
+        vertical-align: middle;
+        border-style: none;
+        margin-top: 25%;
+        box-shadow: -8px 9px 57px -14px grey;
+    }
+    
+    .mac-img {
+        width: 100%;
+        vertical-align: middle;
+        border-style: none;
+    }
+
+    .long-img img {
+        width: 100%;
+        vertical-align: middle;
+        border-style: none; 
+    }
+
+    .mac-img img {
+        width: 100%;
+        vertical-align: middle;
+        border-style: none; 
+    }
+    
+    .image-mac {
+        width: 100%;
+        margin-left: 5%;
+        position: relative;
+
+    }
+    
+    .image-mac img {
+        width: 105%;
+        box-sizing: border-box;
+    }
+    
+    .scroll {
+        position: absolute;
+        left: 14.1%;
+        overflow: scroll;
+        width: 76.8%;
+        height: 34.6%;
+        top: 13%;
+    }
+    
+    .scroll img {
+        width: 100%;
+        vertical-align: middle;
+        border-style: none;
+    }
+    
+    .second-paragraph {
+        width: 100%;
+        margin-top: 7%; 
+    }
+    
+    .contenedor {
+        flex-direction: row;
+    }
+
+    .text1 {
+        width: 17%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .text2 {
+        width: 65%;
+        margin: 0;
+        border-left: 1px solid black;
+        padding-left: 20px;
+        box-sizing: border-box;
+        
+    }
+    
+    .text2 p {
+        margin-top: 0px;
+        margin-bottom: 0em;
+        margin-block-end: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 88%;
+        margin-left: 1em;
+    }
+    .text1 p {
+        margin-top: 20px;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1em;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   
+    
+    /*los dos macs del final*/
+    
+    .second-mac {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .second-mac img {
+        width: 100%;
+    }
+    
+    .macs-scroll {
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 40%;
+    }
+
+    .scroll2 {
+        left: 6.7%;
+        overflow: scroll;
+        width: 36.7%;
+        height: 38%;
+        margin-bottom: 4.1%;
+    }
+    
+    .scroll2 img {
+        width: 100%;
+        vertical-align: middle;
+        border-style: none;
+    }
+    .third-mac {
+        width: 100%;
+    }
+    
+    .scroll3 {
+        position: absolute;
+        left: 56.7%;
+        overflow: scroll;
+        width: 36.7%;
+        height: 38%;
+        margin-bottom: 4.1%;
+    }
+    
+    .scroll3 img {
+        width: 100%;
+        vertical-align: middle;
+        border-style: none;
+    }
+
+    #footer {
+        padding-bottom: 3em;
+    }
+
+    .info-footer {
+        padding-right: 2em;
+    }
+
+    .info-footer p {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+
+}
+
+@media screen and (min-device-width : 1000px) {
+    .scroll2 {
+        left: 6.7%;
+        overflow: scroll;
+        width: 36.7%;
+        height: 24.7%;
+        margin-bottom: 4.1%;
+    }
+
+    .scroll3 {
+        position: absolute;
+        left: 56.7%;
+        overflow: scroll;
+        width: 36.7%;
+        height: 24.7%;
+        margin-bottom: 4.1%;
+    }
+}
+
+@media screen and (max-device-height : 745px) {
+    .scroll2 {
+        left: 6.7%;
+        overflow: scroll;
+        width: 36.7%;
+        height: 38%;
+        margin-bottom: 4.1%;
+    }
+
+    .scroll3 {
+        position: absolute;
+        left: 56.7%;
+        overflow: scroll;
+        width: 36.7%;
+        height: 38%;
+        margin-bottom: 4.1%;
+    }
+}
+

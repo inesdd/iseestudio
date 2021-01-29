@@ -1,0 +1,655 @@
+
+@font-face {
+    font-family: acumin-pro-wide,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    src: url("https://use.typekit.net/hwb1xqw.css");
+}
+
+body {
+    font-family: acumin-pro-wide;
+    font-weight: 700;
+    background-size: 100%;
+}
+/* icono hamburguesa menu */
+.menu-icon {
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+    font-size: 1rem;
+}
+
+.navbar-toggler {
+    padding: 0%;
+    font-size: 1rem !important;
+}
+
+/* hello */
+.navbar-brand img {
+    margin-left: 2%;
+    font-size: 1rem;
+    width: 20%;
+}
+
+.navbar-brand {
+    width: 70%;
+}
+
+/* menu desplegable */
+.navbar-nav {
+    padding-right: 1em;
+    margin-right: 0;
+    padding-top: 1.5em;
+    justify-content: right;
+    text-align: right;
+}
+
+.dropdown-menu.show {
+    text-align: right;
+    background-color: transparent;
+    border-radius: 0;
+    font-family: acumin-pro;
+    font-weight: 400;
+}
+
+.dropdown-toggle::after {
+    border: 0;
+}
+
+/* icono flecha al lado de WORK */
+.drop-icon {
+    display: none;
+}
+
+.nav-link {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2e8752;
+}
+
+/* idioma */
+.eng-language {
+    color: #c4c4c4 !important;
+    font-weight: 400;
+}
+
+.drop-language {
+    color: #c4c4c4 !important;
+    font-weight: 400;
+}
+
+/* línea debajo del navbar */
+hr {
+    height: 0.4px;
+    background-color: #2e8752;
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+
+/* titulo de la pag */
+.title-page {
+    -webkit-text-stroke: 1px #2e8752;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    padding-left: 1em;
+    padding-top: 10px;
+}
+
+.project-info {
+    width: 80%;
+    padding-top: 2em;
+    margin-left: 8%;
+}
+
+.project-line {
+    height: 0.1px;
+    background-color: black;
+    width: 98%;
+    margin-top: 0;
+    margin-bottom: 0; 
+    margin-left: 0;
+}
+
+.project-info p {
+    margin-bottom: 0;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    margin-top: 1em;
+}
+
+.project-info h1 {
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.first-image {
+    width: 91%;
+    margin-left: -1rem;
+    margin-top: 1.5rem;
+}
+
+.first-image img {
+    width: 100%;
+}
+
+.phone-scroll {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.phone img {
+    width: 100%;
+}
+
+/* PS */
+.scroll {
+    position: absolute;
+    top: 14.5%;
+    left: 26.9%;
+    overflow: scroll;
+    width: 46.8%;
+    height: 71.5%;
+}
+
+.scroll img {
+    width: 100%;
+    margin-top: -5px;
+}
+
+.second-info {
+    border-left: 1px solid black;
+    margin-left: 1.8em;
+    margin-bottom: 3.5em;
+    margin-top: 1em;
+}
+
+.second-info p {
+    font-size: .9rem;
+    font-weight: 400;
+    margin-bottom: 1em;
+    width: 84%;
+    margin-left: 1em;
+}
+
+.second-image {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.third-image {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.second-image img {
+    width: 100%;
+}
+
+.third-image img {
+    width: 100%;
+}
+
+/* LAGOM */
+.scroll-lagom {
+    position: absolute;
+    top: 15%;
+    left: 26.9%;
+    overflow: scroll;
+    width: 46.9%;
+    height: 71.3%;
+    z-index: 1;
+}
+
+.scroll-lagom img {
+    width: 100%;
+    margin-top: -5px;
+}
+
+/* TESYR */
+.scroll-tesyr {
+    position: absolute;
+    top: 15%;
+    left: 26.9%;
+    overflow: scroll;
+    width: 46.9%;
+    height: 71.3%;
+    z-index: 1;
+}
+
+.scroll-tesyr img {
+    width: 100%;
+    margin-top: -5px;
+}
+
+/* AQUÍ EMPIEZA EL FOOTER */
+/* footer */
+.info-footer p {
+    font-size: 5px;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 400;
+    color: #c4c4c4;
+}
+
+.info-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.logo-footer {
+    width: 8%;
+    height: 8%;
+    display: flex;
+    margin: auto;
+}
+
+#footer {
+    padding-top: 1em;
+} 
+
+/* RESPONSIVE */
+@media screen and (min-device-width : 360px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: #2e8752;
+    }
+
+    .phone-scroll {
+        display: flex;
+        align-items: center;
+    }
+
+    .phone-scroll2 {
+        display: flex;
+        align-items: center;
+    }
+    .phone-scroll3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .scroll {
+        position: absolute;
+        left: 26.5%;
+        overflow: scroll;
+        width: 47.3%;
+        height: 71%;
+    }
+
+    .scroll-lagom {
+        position: absolute;
+        left: 26.5%;
+        overflow: scroll;
+        width: 47.3%;
+        height: 71%;
+    }
+    
+    .scroll-tesyr {
+        position: absolute;
+        left: 26.5%;
+        overflow: scroll;
+        width: 47.3%;
+        height: 71%;
+    }
+        
+    
+    
+}
+
+/* IPAD */
+@media screen and (min-device-width : 700px) {
+    /* navbar */
+    .navbar-brand img {
+        margin-left: 10%;
+        font-size: 1rem;
+        width: 10%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #2e8752;
+    }
+
+    .navbar-brand {
+        width: 75%;
+    }
+/*
+    .drop-icon {
+        display: inline-block;
+        width: 3%;
+        height: 5%;
+        margin-left: .255em;
+        vertical-align: .255em;
+        content: "";
+    }
+*/
+    .title-page {
+        -webkit-text-stroke: 2px #2e8752;
+        -webkit-text-fill-color: transparent;
+        font-size: 59px;
+        padding-left: 1em;
+        padding-top: 30px;
+    }
+
+    /* proyectos */
+    .project-line {
+        height: 0.1px;
+        background-color: black;
+        width: 98%;
+        margin-top: 0;
+        margin-bottom: 0; 
+        margin-left: 0;
+    }
+
+    .project-info {
+        width: 80%;
+        padding-top: 2em;
+        margin-left: 8%;
+    }
+
+    .project-info p {
+        margin-bottom: 0;
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+
+    .project-info h1 {
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+
+    /* scroll primero */
+    .phone-scroll {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .phone-scroll2 {
+        display: flex;
+        align-items: center;
+    }
+    .phone-scroll3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .scroll {
+        position: absolute;
+        left: 26.5%;
+        overflow: scroll;
+        width: 47.4%;
+        height: 71%;
+    }
+    .second-info {
+       border-left: 1px solid black;
+        margin-left: 6em;
+        margin-bottom: 3.5em;
+    }
+
+    .second-info p {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1em;
+        width: 78%;
+        margin-left: 1em;
+    }
+
+    .scroll-lagom {
+        position: absolute;
+        left: 26.5%;
+        overflow: scroll;
+        width: 47.4%;
+        height: 71%;
+    }
+    
+    .scroll-tesyr {
+        position: absolute;
+        left: 26.5%;
+        overflow: scroll;
+        width: 47.4%;
+        height: 71%;
+    }
+    
+    #footer {
+        padding-top: 4em;
+        padding-bottom: 2em;
+    }
+
+    .logo-footer {
+        width: 6%;
+        height: 6%;
+    }
+
+    .info-footer p {
+        font-size: 8px;
+        margin-top: 15px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-device-width : 1000px) {
+    /* navbar */
+    .navbar-brand img {
+        margin-left: 10%;
+        font-size: 1rem;
+        width: 10%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #2e8752;
+    }
+
+    .navbar-brand {
+        width: 75%;
+    }
+
+    .drop-icon {
+        display: none;
+    }
+
+    /* idioma */
+    .eng-language {
+        color: #c4c4c4 !important;
+        font-weight: 400;
+    }
+
+    .drop-language {
+        color: #c4c4c4 !important;
+        font-weight: 400;
+        padding-right: 51% !important;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-right: 2em !important;
+    }
+
+    .title-page {
+        -webkit-text-stroke: 2px #2e8752;
+        -webkit-text-fill-color: transparent;
+        font-size: 59px;
+        padding-left: 1em;
+        padding-top: 30px;
+    }
+
+    /* proyectos */
+    .project-info {
+        padding-left: 2.2rem;
+        margin-left: -2rem;
+        width: 54.1%;
+        margin-bottom: 1.5em;
+    }
+    
+    .project-line {
+        height: 0.1px;
+        background-color: black;
+        width: 98%;
+        margin-top: 0;
+        margin-bottom: 0; 
+        margin-left: 0;
+    }
+
+    .project-info p {
+        margin-top: 20px;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1em;
+    }
+    
+    .project-info h1 {
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .phone-scroll {
+        width: 35%;
+        right: -5%;
+        margin-top: -9.5%;
+        display: flex;
+        align-items: center;
+    }
+
+    .phone {
+        width: 80%;
+    }
+
+    .scroll {
+        position: absolute;
+        margin-top: 2%;
+        left: 21.7%;
+        overflow: scroll;
+        width: 38.3%;
+        height: 68%;
+        z-index: 1;
+    }
+
+    .first-image {
+        width: 50%;
+        margin-left: 0;
+        margin-top: 1.5rem;
+        margin-bottom: 5em;
+    }
+    
+    .first-image img {
+        width: 100%;
+    }
+
+    .second-info {
+        border-left: 1px solid black;
+        margin-left: 3em;
+    }
+
+    .second-info p {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1em;
+        width: 88%;
+        margin-left: 1em;
+    }
+
+    .second-image {
+        width: 45%;
+        padding-bottom: 1rem;
+        position: absolute;
+        margin-left: 0;
+    }
+
+    .third-image {
+        width: 45%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+        position: absolute;
+        right: 4%;
+    }
+
+    .lagom {
+        position: absolute;
+        padding-top: 40%;
+    }
+
+    .phone-scroll2 {
+        width: 35%;
+        right: -5%;
+        margin-top: -9.5%;
+        display: flex;
+        align-items: center;
+    }
+
+    .scroll-lagom {
+        margin-top: 2%;
+        position: absolute;
+        left: 21.7%;
+        overflow: scroll;
+        width: 38.3%;
+        height: 68%;
+        z-index: 1;
+    }
+    
+    .tesyr { 
+        padding-top: 168%;
+    }
+
+    .scroll-tesyr {
+        margin-top: 2%;
+        position: absolute;
+        left: 21.7%;
+        overflow: scroll;
+        width: 38.3%;
+        height: 68%;
+        z-index: 1;
+    }
+
+    .phone-scroll3 {
+        width: 35%;
+        right: -5%;
+        margin-top: -9.5%;
+        display: flex;
+        align-items: center;
+    }
+    
+    #header {
+        padding-left: 4.7%;
+        padding-right: 5%;
+    }
+
+    #footer {
+        padding-top: 23em;
+        padding-bottom: 1em;
+    }
+
+    .info-footer {
+        padding-right: 2em;
+    }
+
+    .info-footer p {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
+}

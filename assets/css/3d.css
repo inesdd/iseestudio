@@ -1,0 +1,450 @@
+
+@font-face {
+    font-family: acumin-pro-wide,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    src: url("https://use.typekit.net/hwb1xqw.css");
+}
+
+body {
+    font-family: acumin-pro-wide;
+    font-weight: 700;
+    background-size: 100%;
+}
+/* icono hamburguesa menu */
+.menu-icon {
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+    font-size: 1rem;
+}
+
+.navbar-toggler {
+    padding: 0%;
+    font-size: 1rem !important;
+}
+
+/* logo */
+.navbar-brand img {
+    margin-left: 2%;
+    font-size: 1rem;
+    width: 20%;
+}
+
+.navbar-brand {
+    width: 70%;
+}
+
+/* menu desplegable */
+.navbar-nav {
+    padding-right: 1em;
+    margin-right: 0;
+    padding-top: 1.5em;
+    justify-content: right;
+    text-align: right;
+}
+
+.dropdown-menu.show {
+    text-align: right;
+    background-color: transparent;
+    border-radius: 0;
+    font-family: acumin-pro;
+    font-weight: 400;
+}
+
+.dropdown-toggle::after {
+    border: 0;
+}
+
+/* icono flecha al lado de WORK */
+.drop-icon {
+    display: none;
+}
+
+.nav-link {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+/* idioma */
+.eng-language {
+    color: #c4c4c4 !important;
+    font-weight: 400;
+}
+
+.drop-language {
+    color: #c4c4c4 !important;
+    font-weight: 400;
+}
+
+/* línea debajo del navbar */
+hr {
+    height: 0.4px;
+    background-color: #fcc978;
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+
+/* titulo de la pag */
+.title-page {
+    -webkit-text-stroke: 1px #fcc978;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    padding-left: 1em;
+    padding-top: 10px;
+}
+
+/* primer proyecto abstract */
+.first-video img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+.first-video {
+    padding-top: 1.em;
+    width: 100%;
+    position: relative;
+}
+
+.first-video video {
+    position: absolute;
+    top: 32.3%;
+    left: 20.5%;
+    width: 65.6%;
+    outline: none;
+}
+
+.info {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.info p {
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    margin-top: 1em;
+}
+
+.info h1 {
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: black;
+}
+
+.project-line {
+    height: 0.1px;
+    background-color: black;
+    width: 98%;
+    margin-top: 0;
+    margin-bottom: 0; 
+    margin-left: 0;
+}
+
+/* segundo proyecto tesyr */
+.second-video img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+.second-video {
+    padding-top: 1.em;
+    width: 100%;
+    position: relative;
+}
+
+.second-video video {
+    position: absolute;
+    top: 32.3%;
+    left: 20.5%;
+    width: 65.6%;
+    outline: none;
+}
+
+.second-info {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.second-info p {
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    margin-top: 1em;
+}
+
+.second-info h1 {
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: black;
+}
+
+/* AQUÍ EMPIEZA EL FOOTER */
+/* footer */
+.info-footer p {
+    font-size: 5px;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 400;
+    color: #c4c4c4;
+}
+
+.info-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.logo-footer {
+    width: 8%;
+    height: 8%;
+    display: flex;
+    margin: auto;
+}
+
+#footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+} 
+
+
+/* RESPONSIVE */
+
+/* IPHONE X */
+@media screen and (min-device-width : 360px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: #fcc978;
+    }
+
+    .title-page {
+        font-size: 28px;
+        padding-left: 1.3em;
+    }
+    
+}
+
+/* IPAD */
+@media screen and (min-device-width : 700px) {
+    /* navbar */
+    .navbar-brand img {
+        margin-left: 10%;
+        font-size: 1rem;
+        width: 10%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fcc978;
+    }
+
+    .navbar-brand {
+        width: 75%;
+    }
+
+    .title-page {
+        -webkit-text-stroke: 2px #fcc978;
+        -webkit-text-fill-color: transparent;
+        font-size: 59px;
+        padding-left: 1em;
+        padding-top: 30px;
+    }
+
+    /* proyectos */
+    .project-line {
+        height: 0.1px;
+        background-color: black;
+        width: 98%;
+        margin-top: 0;
+        margin-bottom: 0; 
+        margin-left: 0;
+    }
+
+    .info {
+        width: 80%;
+        padding-top: 2em;
+        margin-left: 8%;
+    }
+
+    .info p {
+        margin-bottom: 0;
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+
+    .info h1 {
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+
+    .second-info {
+        width: 80%;
+        padding-top: 2em;
+        margin-left: 8%;
+    }
+
+    .second-info p {
+        margin-bottom: 0;
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+
+    .second-info h1 {
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+    
+    #footer {
+        padding-top: 4em;
+        padding-bottom: 2em;
+    }
+
+    .logo-footer {
+        width: 6%;
+        height: 6%;
+    }
+
+    .info-footer p {
+        font-size: 8px;
+        margin-top: 15px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-device-width : 1000px) {
+    /* navbar */
+    .navbar-brand img {
+        margin-left: 10%;
+        font-size: 1rem;
+        width: 10%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fcc978;
+    }
+
+    .navbar-brand {
+        width: 75%;
+    }
+
+    .drop-icon {
+        display: none;
+    }
+    
+    /* idioma */
+    .eng-language {
+        color: #c4c4c4 !important;
+        font-weight: 400;
+    }
+
+    .drop-language {
+        color: #c4c4c4 !important;
+        font-weight: 400;
+        padding-right: 51% !important;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-right: 2em !important;
+    }
+
+    .title-page {
+        -webkit-text-stroke: 2px #fcc978;
+        -webkit-text-fill-color: transparent;
+        font-size: 59px;
+        padding-left: 1.5em;
+        padding-top: 30px;
+    }
+
+    /* proyectos */
+    .project-line {
+        height: 0.1px;
+        background-color: black;
+        width: 98%;
+        margin-top: 0;
+        margin-bottom: 0; 
+        margin-left: 0;
+    }
+
+    .info {
+        width: 85%;
+        padding-top: 2em;
+        margin-left: 8%;
+    }
+
+    .info p {
+        margin-top: 20px;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1em;
+    }
+    
+    .info h1 {
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .second-info {
+        width: 80%;
+        padding-top: 2em;
+        margin-left: 8%;
+    }
+
+    .second-info p {
+        margin-top: 20px;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1em;
+    }
+    
+    .second-info h1 {
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    /* footer */
+    #footer {
+        padding-top: 6em;
+        padding-bottom: 3em;
+    }
+
+    .info-footer {
+        padding-right: 2em;
+    }
+
+    .info-footer p {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+}
